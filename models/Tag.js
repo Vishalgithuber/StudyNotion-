@@ -11,8 +11,7 @@ const tagsSchema = new mongoose.Schema({
    },
    course:{
     type:Object.Schema.Types.ObjectId,
-    ref:"Course",
-
+    ref: "Course",
    }
 });
 
